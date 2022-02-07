@@ -35,7 +35,7 @@ $db = mysqli_connect($SESS_DBHOST, $SESS_DBUSER,$SESS_DBPASS,$SESS_DBNAME);
             }
 
         }
-        
+        header( "refresh:5;url=http://localhost/file_check/index.php" );//refresh url aftetr 5 secodes
     }
 ?>
 
